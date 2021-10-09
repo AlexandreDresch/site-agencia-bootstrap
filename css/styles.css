@@ -18,7 +18,7 @@ p, li {
 
 /* Barra de navegação */
 header, .navbar {
-    background-color: #353D41;
+    background-color: #080808;
 }
 
 #nav-container {
@@ -95,4 +95,47 @@ header, .navbar {
 
 .carousel-indicators .active {
     background-color: aqua;
+}
+
+/* Sobre a empresa */
+
+#about-area {
+    background-color: #f9f9f9;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    bottom: -50px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: rgba(0, 255, 255, 0.527);
+    margin-right: 15px;
 }
